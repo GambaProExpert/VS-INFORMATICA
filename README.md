@@ -16,8 +16,7 @@ npm run dev          # y en otra terminal:
 php artisan serve
 ```
 
-En `http://127.0.0.1:8000`. La base de datos es SQLite (`database/database.sqlite`) y solo guarda
-las consultas del formulario de contacto: **el contenido no toca la base de datos**.
+En `http://127.0.0.1:8000`
 
 Los correos van al log (`MAIL_MAILER=log`): las consultas enviadas se leen en
 `storage/logs/laravel.log`.
