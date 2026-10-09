@@ -14,7 +14,7 @@
                      sitio original; aquí deja de ser una línea perdida en el texto. --}}
                 <div class="rounded-tarjeta border border-azafran/30 bg-azafran/5 p-7 lg:p-9">
                     <p class="font-display text-2xl font-semibold text-tinta sm:text-3xl">
-                        Le realizamos una auditoría de seguridad <span class="text-azafran-oscuro">¡GRATIS *!</span>
+                        Le realizamos una auditoría de seguridad
                     </p>
                     <p class="mt-3 max-w-2xl text-tenue">
                         Estudiamos su empresa, determinamos los riesgos que tiene —internos y externos— y le
@@ -23,7 +23,7 @@
                     <a href="{{ route('contacto') }}"
                        class="mt-6 inline-flex items-center gap-2 rounded-boton bg-azafran px-5 py-3
                              font-medium text-sobre-azafran transition hover:bg-azafran-fuerte">
-                        Pedir la auditoría
+                        Solicitar auditoría
                         <x-icono nombre="flecha" class="h-4 w-4"/>
                     </a>
                 </div>
@@ -68,7 +68,7 @@
                     <ul class="mt-4 space-y-3 text-sm text-tinta">
                         <li class="flex items-start gap-2.5">
                             <x-icono nombre="escudo" class="mt-0.5 h-4 w-4 shrink-0 text-azafran"/>
-                            Auditoría de seguridad gratuita
+                            Auditoría de seguridad
                         </li>
                         <li class="flex items-start gap-2.5">
                             <x-icono nombre="llave" class="mt-0.5 h-4 w-4 shrink-0 text-azafran"/>

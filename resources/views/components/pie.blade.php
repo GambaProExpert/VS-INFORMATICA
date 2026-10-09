@@ -8,7 +8,7 @@
 
 {{-- x-data vacío: Alpine necesita un ámbito para que $dispatch del botón de
      cookies funcione, aunque el pie no guarde ningún estado propio. --}}
-<footer x-data class="mt-20 border-t border-linea bg-niebla">
+<footer x-data="pie()" class="mt-20 border-t border-linea bg-niebla">
 
     {{-- Franja de partners. En el sitio original vivía en una banda oscura
          justo encima del pie; aquí abre el pie, que es donde la gente busca
@@ -20,8 +20,8 @@
 
             {{-- Identidad + NAP. El mismo nombre, dirección y teléfono que en
                  Google y en el aviso legal: si divergen, el SEO local sufre. --}}
-            <div class="lg:col-span-2">
-                <img src="{{ asset('images/marca/logo.png') }}"
+            <div class="lg:col-span-2" x-data="pie()">
+                <img :src="oscuro ? '{{ asset('images/marca/logo_oscuro.png') }}' : '{{ asset('images/marca/logo_claro.png') }}'"
                      alt="{{ $empresa['nombre_largo'] }}"
                      width="180" height="180"
                      class="h-14 w-auto"

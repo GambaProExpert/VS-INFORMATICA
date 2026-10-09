@@ -78,11 +78,11 @@ return [
                 'titulo'         => 'Seguridad',
                 'titular'        => 'Seguridad',
                 'entradilla'     => 'Evite ataques y pérdida de datos',
-                'sumario'        => '¿Cree que su empresa está segura? Le realizamos una auditoría de seguridad gratis.',
+                'sumario'        => '¿Cree que su empresa está segura? Le realizamos una auditoría de seguridad.',
                 'icono'          => 'escudo',
-                'meta_titulo'    => 'Seguridad informática para empresas en Albacete | Auditoría gratis',
-                'meta_descripcion' => 'Auditoría de seguridad gratuita para empresas de La Roda y Albacete. '
-                                    . 'Detectamos los riesgos internos y externos y te decimos qué hacer.',
+                'meta_titulo'    => 'Seguridad informática para empresas en Albacete | Auditoría de seguridad',
+                'meta_descripcion' => 'Auditoría de seguridad para empresas de La Roda y Albacete. '
+                                    . 'Detectamos los riesgos internos y externos y le decimos qué hacer.',
             ],
 
             'reparacion' => [

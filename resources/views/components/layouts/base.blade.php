@@ -151,6 +151,25 @@
                     this.observer?.disconnect();
                 },
             });
+
+            window.pie = () => ({
+                oscuro: document.documentElement.classList.contains('dark'),
+                observer: null,
+
+                init() {
+                    this.observer = new MutationObserver(() => {
+                        this.oscuro = document.documentElement.classList.contains('dark');
+                    });
+                    this.observer.observe(document.documentElement, {
+                        attributes: true,
+                        attributeFilter: ['class'],
+                    });
+                },
+
+                destroy() {
+                    this.observer?.disconnect();
+                },
+            });
         })();
     </script>
 
