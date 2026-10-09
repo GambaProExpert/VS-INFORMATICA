@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Rutas internas de Livewire: no aportan nada a un buscador.
+Disallow: /livewire/
+
+Sitemap: https://www.vsinformatica.es/sitemap.xml
